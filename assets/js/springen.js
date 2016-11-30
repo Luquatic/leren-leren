@@ -5,8 +5,8 @@ $(document).ready(function () {
     document.addEventListener("keypress", zweefEven, false);
 
     function zweefEven(e) {
-        var keyCode = e.keyCode;
-
+        var keyCode = e.charCode;
+        
         if(keyCode == 32) {
             $(camera).attr('camera', 'userHeight: 10');
 
