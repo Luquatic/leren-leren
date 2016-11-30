@@ -8,10 +8,8 @@ $(document).ready(function () {
     function schiet(e) {
         var keyCode = e.charCode;
 
-        if(keyCode == 46) {
-
+        if(keyCode == 46) { 
             $(kogel).attr('visible', 'true');
-            $(kogel).attr('visible', 'false');
         }
 
         console.log(keyCode)
