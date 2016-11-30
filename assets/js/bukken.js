@@ -6,7 +6,7 @@ $(document).ready(function () {
     document.addEventListener("keyup", sta, false);
 
     function buk(e) {
-        var keyCode = e.charCode;
+        var keyCode = e.keyCode;
 
         if(keyCode == 67) {
             $(camera).attr('camera', 'userHeight: 2.8')

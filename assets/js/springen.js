@@ -6,7 +6,7 @@ $(document).ready(function () {
 
     function zweefEven(e) {
         var keyCode = e.charCode;
-        
+
         if(keyCode == 32) {
             $(camera).attr('camera', 'userHeight: 10');
 
