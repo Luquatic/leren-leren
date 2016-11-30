@@ -14,7 +14,7 @@ $(document).ready(function () {
 
             setTimeout(function() {
                 $(kogel).attr('visible', 'false');
-            }, 5000)
+            }, 5000);
         }
 
         console.log(keyCode)
